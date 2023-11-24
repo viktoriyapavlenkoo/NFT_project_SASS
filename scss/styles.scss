@@ -1,0 +1,23 @@
+@import './utils/variables';
+@import './base';
+
+// common-path
+@import './components/common-path/container';
+@import './components/common-path/section-title';
+@import './components/common-path/title';
+@import './components/common-path/btns';
+// components
+@import './components/header';
+@import './components/hero';
+@import './components/subscribe';
+@import './components/components';
+@import './components/possibility';
+@import './components/price';
+@import './components/examples';
+@import './components/airdrop';
+@import './components/tokenom';
+@import './components/roadmap';
+@import './components/team';
+@import './components/footer';
+
+

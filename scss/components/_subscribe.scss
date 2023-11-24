@@ -1,0 +1,37 @@
+
+.main-container-subscribe {
+    background: linear-gradient(180deg, #0E1A19 0%, #133B2A 100%);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    div {
+        flex: 0 1 calc(100%/3);
+    }
+    .tree-container {
+        position: relative;
+    }
+    .tree {
+        position: absolute;
+        top: -270px;
+        left: -20px;
+        object-fit: contain;
+        width: 120%;
+    }
+}
+
+.subscribe-first-title {
+    color: var(--accent-color-text);
+    // text-align: end;
+    margin-left: 20px;
+}
+
+.second-container-subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    p {
+        text-align: right;
+        margin-bottom: 24px;
+    }
+}
