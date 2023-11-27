@@ -1,0 +1,38 @@
+.footer-block {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #201841 0%, #2C205D 100%);
+    padding: 40px 80px;
+    align-items: center;
+        &::after {
+            position: absolute;
+            content: url(../../images/footer-image-4.svg);
+            left: calc(100%/3);
+        }
+    h2 {
+        max-width: 420px;
+        width: 100%;
+        text-align: center;
+        margin-right: 50px;
+        span {
+            color: var(--accent-color-text);
+        }
+        
+    }
+    ul {
+        display: flex;
+        margin: 0 -20px;
+
+        li {
+            margin: 0 20px;
+
+        }
+    }
+}
+.footer-text {
+    font-family: 'Griffy';
+    font-size: var(--small-text);
+    text-align: center;
+    margin: 80px 0 50px;
+}

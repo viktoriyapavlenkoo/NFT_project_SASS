@@ -1,5 +1,4 @@
 .hero {
-    padding: 27px 0 80px;
     .hero-container {
         text-align: center;
     }
@@ -14,13 +13,9 @@
 
     &::after {
         position: absolute;
-        content: "";
-        width: 100px;
-        height: 5px;
+        content: url('../../images/Line-1.svg');
         top: 80px;
         left: calc((100% - 100px) /2 );
-        background-color: var(--accent-color-text);
-        transform: rotate(-11deg);
     }
 }
 .hero-second-title {

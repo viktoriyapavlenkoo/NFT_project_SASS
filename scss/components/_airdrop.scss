@@ -1,0 +1,47 @@
+.airdrop {
+    text-align: center;
+    p {
+        margin: 24px 0 40px;
+    }
+}
+.airdrop-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -8px;
+    li {
+        margin: 0 8px;
+    }
+    h3 {
+        font-family: 'Griffy';
+    }
+
+}
+
+.first-outline{
+    position: relative;
+    &::after {
+        position: absolute;
+        content: url(../../images/airdrop-dash-image-1.svg);
+        left: 142px;
+        top: 50px;
+    }
+}
+.second-outline{
+    position: relative;
+    &::after {
+        position: absolute;
+        content: url(../../images/airdrop-dash-image-2.svg);
+        left: 190px;
+        top: 60px;
+    }
+}
+.third-outline{
+    position: relative;
+    &::after {
+        position: absolute;
+        content: url(../../images/airdrop-dash-image-3.svg);
+        left: 215px;
+        top: 70px;
+    }
+}

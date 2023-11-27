@@ -1,0 +1,41 @@
+.tokenom-block {
+    display: flex;
+    padding: 64px;
+    background: linear-gradient(180deg, #131624 0%, #191D2E 100%);
+    justify-content: space-between;
+    .tokenom-right-block {
+        margin-left: 30px;
+    }
+    ul {
+        margin: 32px 0;
+        li {
+            display: flex;
+            margin-left: 36px;
+            
+        }
+    }
+}
+.first-item {
+    position: relative;
+    &::before {
+        position: absolute;
+        content: url(../../images/tokenom-icon-1.svg);
+        left: -36px;
+    }
+}
+.second-item {
+    position: relative;
+    &::before {
+        position: absolute;
+        content: url(../../images/tokenom-icon-2.svg);
+        left: -36px;
+    }
+}
+.third-item {
+    position: relative;
+    &::before {
+        position: absolute;
+        content: url(../../images/tokenom-icon-3.svg);
+        left: -36px;
+    }
+}

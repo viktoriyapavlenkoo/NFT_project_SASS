@@ -1,0 +1,25 @@
+.roadmap {
+    h2 {
+        margin: 0 75px 24px;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 -5px;
+        li {
+            flex: 0 1 calc(100% / 4);
+            background: linear-gradient(180deg, #10121D 0%, #191D2E 100%);
+            padding: 32px 24px;
+            margin: 0 5px;
+            height: 240px;
+            p {
+                margin-top: 12px;
+            }
+            &:hover, 
+            &:focus, 
+            &:active {
+                background: linear-gradient(180deg, rgba(1, 55, 66, 0.40) 0%, rgba(7, 126, 76, 0.40) 100%);
+            }
+        }
+    }
+}

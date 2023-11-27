@@ -3,9 +3,13 @@
 
 // common-path
 @import './components/common-path/container';
+@import './components/common-path/section';
 @import './components/common-path/section-title';
 @import './components/common-path/title';
 @import './components/common-path/btns';
+@import './components/common-path/grid-lists';
+
+
 // components
 @import './components/header';
 @import './components/hero';
