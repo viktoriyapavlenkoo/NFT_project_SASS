@@ -1,21 +1,22 @@
-// .header {
-// }
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    nav {
+    height: 100px;
+    .header-nav {
         display: flex;
         align-items: center;
-        margin-right: 25px;
+        max-width: 900px;
+        width: 100%;
+        justify-content: space-between;
         
     }
     ul {
         display: flex;
         margin: 0 -15px;
+        align-items: center;
     }
+
     li {
         margin: 0 15px;
         a {
@@ -29,24 +30,80 @@
     margin-right: 24px;
     align-items: center;
 } 
-// .container {
-// }
-// .header-nav {
-// }
+.burger {
+    display: none;
+}
 
-// .link {
-// }
-// .header-nav-list {
-// }
-// .list {
-// }
-// .header-nav-item {
-// }
-// .header-nav-item-link {
-// }
-// .header-list {
-// }
-// .header-item {
-// }
-// .header-item-link {
-// }
+
+@media screen and (max-width: 950px ) {
+   .burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;    
+    &::before {   
+         content: '';
+         position: absolute;
+         width: 100%;
+         height: 2px;
+         background-color: #fff;
+         top: 0;
+    }
+    &::after {
+         content: '';
+         position: absolute;
+         width: 100%;
+         height: 2px;
+         background-color: #fff;
+         bottom: 0;
+    }
+    span {
+         position: absolute;
+         width: 100%;
+         height: 2px;
+         background-color: #fff;
+         top: 9px;
+     }
+    
+ }
+ .burger.active {
+    &::before {   
+         transform: rotate(45deg);
+         top: 50%;
+    }
+    &::after {
+        transform: rotate(-45deg);top: 50%;
+    }
+    span {
+        transform: scale(0)
+     }
+    &.active {
+        top: 0;
+    }
+ }
+ .header-nav {
+    position: fixed;
+    flex-direction: column;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 80px 0 40px;
+    .header-nav-list {
+        flex-direction: column;
+        height: 70%;
+        justify-content: space-between;
+        overflow-y: hidden;
+        li {
+            margin-bottom: 10px;
+            a {
+                font-size: var(--middle-text);
+            }
+        }
+    }
+    &.active {
+        top: 0;
+    }
+}
+
+}
