@@ -50,6 +50,16 @@ button {
   color: inherit;
 }
 
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 460px) {
+  html {
+    font-size: 14px;
+  }
+}
 .container {
   max-width: 1180px;
   width: 100%;
@@ -61,6 +71,16 @@ section {
   margin-top: 70px;
 }
 
+@media screen and (max-width: 800px) {
+  section {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 460px) {
+  section {
+    margin-top: 20px;
+  }
+}
 .section-title {
   font-family: "Griffy";
   font-size: var(--middle-title-text);
@@ -156,6 +176,7 @@ section {
 @media screen and (max-width: 950px) {
   .burger {
     display: block;
+    z-index: 3;
     position: relative;
     width: 30px;
     height: 20px;
@@ -206,6 +227,8 @@ section {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    background-color: var(--first-background-color);
+    z-index: 2;
     top: -100%;
     left: 0;
     width: 100%;
@@ -233,6 +256,11 @@ section {
     top: 0;
   }
 }
+@media screen and (max-width: 800px) {
+  .header-container {
+    height: 80px;
+  }
+}
 .hero .hero-container {
   text-align: center;
 }
@@ -247,7 +275,7 @@ section {
 .hero-first-text::after {
   position: absolute;
   content: url("../../images/Line-1.svg");
-  top: 80px;
+  top: 50px;
   left: calc((100% - 100px) / 2);
 }
 
@@ -258,6 +286,16 @@ section {
   color: var(--accent-color-text);
 }
 
+@media screen and (max-width: 800px) {
+  .hero-main-title img {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .hero-main-title img {
+    width: 300px;
+  }
+}
 .main-container-subscribe {
   background: -webkit-gradient(linear, left top, left bottom, from(#0E1A19), to(#133B2A));
   background: linear-gradient(180deg, #0E1A19 0%, #133B2A 100%);
@@ -311,6 +349,17 @@ section {
   margin-bottom: 24px;
 }
 
+@media screen and (max-width: 950px) {
+  .tree-container {
+    display: none;
+  }
+  .main-container-subscribe {
+    display: block;
+  }
+  .first-container-subscribe {
+    margin-bottom: 20px;
+  }
+}
 .components-title {
   text-align: center;
   margin-bottom: 20px;
@@ -328,6 +377,11 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media screen and (max-width: 460px) {
+  .possibility-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .price h2 {
   text-align: center;
   margin-bottom: 12px;
@@ -365,6 +419,10 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 40px;
   background: -webkit-gradient(linear, left top, left bottom, from(#10121D), to(#191D2E));
   background: linear-gradient(180deg, #10121D 0%, #191D2E 100%);
@@ -380,6 +438,7 @@ section {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 -10px;
+  margin-bottom: 15px;
 }
 .block-price .block-formula div {
   margin: 0 20px;
@@ -440,6 +499,12 @@ section {
   left: -36px;
 }
 
+@media screen and (max-width: 800px) {
+  .block-price,
+  .price-list {
+    display: none;
+  }
+}
 .examples-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -461,6 +526,7 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 20px;
 }
 .examples-block h2 {
   position: relative;
@@ -501,6 +567,11 @@ section {
   margin: 24px 0 20px;
 }
 
+@media screen and (max-width: 460px) {
+  .examples-block {
+    display: none;
+  }
+}
 .airdrop {
   text-align: center;
 }
@@ -557,6 +628,11 @@ section {
   top: 70px;
 }
 
+@media screen and (max-width: 950px) {
+  .airdrop {
+    display: none;
+  }
+}
 .tokenom-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -608,6 +684,22 @@ section {
   left: -36px;
 }
 
+@media screen and (max-width: 600px) {
+  .tokenom-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tokenom-block h2 {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .tokenom-block {
+    padding: 40px;
+  }
+}
 .roadmap h2 {
   margin: 0 75px 24px;
 }
@@ -628,7 +720,6 @@ section {
   background: linear-gradient(180deg, #10121D 0%, #191D2E 100%);
   padding: 32px 24px;
   margin: 0 5px;
-  height: 240px;
 }
 .roadmap ul li p {
   margin-top: 12px;
@@ -638,6 +729,16 @@ section {
   background: linear-gradient(180deg, rgba(1, 55, 66, 0.4) 0%, rgba(7, 126, 76, 0.4) 100%);
 }
 
+@media screen and (max-width: 600px) {
+  .roadmap ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: -5px -5px;
+  }
+  .roadmap ul li {
+    margin: 5px 5px;
+  }
+}
 .team {
   margin-bottom: 80px;
 }
@@ -681,6 +782,17 @@ section {
   text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+  .team ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 460px) {
+  .team ul {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .footer-block {
   position: relative;
   display: -webkit-box;
@@ -691,7 +803,7 @@ section {
           justify-content: space-between;
   background: -webkit-gradient(linear, left top, left bottom, from(#201841), to(#2C205D));
   background: linear-gradient(180deg, #201841 0%, #2C205D 100%);
-  padding: 40px 80px;
+  padding: 40px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -714,10 +826,13 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 -20px;
+  margin: 0 -10px;
 }
 .footer-block ul li {
-  margin: 0 20px;
+  margin: 0 10px;
+}
+.footer-block ul li img {
+  width: 30px;
 }
 
 .footer-text {
@@ -725,4 +840,21 @@ section {
   font-size: var(--small-text);
   text-align: center;
   margin: 80px 0 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .footer-block::after {
+    display: none;
+  }
+}
+@media screen and (max-width: 460px) {
+  .footer-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-block h2 {
+    margin-bottom: 10px;
+  }
 }/*# sourceMappingURL=styles.css.map */

@@ -39,3 +39,20 @@
         left: -36px;
     }
 }
+
+
+@media screen and (max-width: 600px ) {
+    .tokenom-block {
+        flex-direction: column;
+        h2 {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 460px ) {
+    .tokenom-block {
+        padding: 40px;
+    }
+    
+}

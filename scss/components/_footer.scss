@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     background: linear-gradient(180deg, #201841 0%, #2C205D 100%);
-    padding: 40px 80px;
+    padding: 40px;
     align-items: center;
         &::after {
             position: absolute;
@@ -22,10 +22,13 @@
     }
     ul {
         display: flex;
-        margin: 0 -20px;
+        margin: 0 -10px;
 
         li {
-            margin: 0 20px;
+            margin: 0 10px;
+            img {
+              width: 30px;  
+            }
 
         }
     }
@@ -35,4 +38,23 @@
     font-size: var(--small-text);
     text-align: center;
     margin: 80px 0 50px;
+}
+
+@media screen and (max-width: 800px ) {
+    .footer-block {
+        &::after {
+            display: none;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 460px ) {
+    .footer-block {
+        flex-direction: column;
+        h2 {
+            margin-bottom: 10px;
+        }
+    }
+    
 }

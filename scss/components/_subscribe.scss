@@ -35,3 +35,17 @@
         margin-bottom: 24px;
     }
 }
+
+// media
+
+@media screen and (max-width: 950px ) {
+    .tree-container {
+        display: none;
+    }
+    .main-container-subscribe {
+        display: block;
+    }
+    .first-container-subscribe {
+        margin-bottom: 20px;
+    }
+}

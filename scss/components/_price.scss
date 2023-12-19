@@ -33,6 +33,7 @@
 .block-price {
     display: flex;
     align-items: center;
+    flex-direction: column;
     padding: 40px;
     background:linear-gradient(180deg, #10121D 0%, #191D2E 100%);
     justify-content: space-between;
@@ -40,6 +41,7 @@
         display: flex;
         align-items: center;
         margin: 0 -10px;
+        margin-bottom: 15px;
         div {
             margin: 0 20px;
         }
@@ -84,5 +86,20 @@
             content: url(../../images/price-icon-image-1.svg);
             left: -36px;
         }
+    }
+}
+
+// media
+
+@media screen and (max-width: 950px ) {
+    // .block-price,
+    // .price-list {
+    //     display: none;
+    // }
+}
+@media screen and (max-width: 800px ) {
+    .block-price,
+    .price-list {
+        display: none;
     }
 }

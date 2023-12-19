@@ -26,3 +26,19 @@
         }
     }
 }
+
+@media screen and (max-width: 800px ) {
+    .team ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+
+
+@media screen and (max-width: 460px ) {
+    .team ul {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}

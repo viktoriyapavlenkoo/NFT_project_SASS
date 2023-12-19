@@ -2,3 +2,17 @@ section {
     margin-top: 70px;
     
 }
+
+@media screen and (max-width: 800px ) {
+    section {
+        margin-top: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 460px ) {
+    section {
+        margin-top: 20px;
+    }
+    
+}

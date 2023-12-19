@@ -11,7 +11,6 @@
             background: linear-gradient(180deg, #10121D 0%, #191D2E 100%);
             padding: 32px 24px;
             margin: 0 5px;
-            height: 240px;
             p {
                 margin-top: 12px;
             }
@@ -20,6 +19,17 @@
             &:active {
                 background: linear-gradient(180deg, rgba(1, 55, 66, 0.40) 0%, rgba(7, 126, 76, 0.40) 100%);
             }
+        }
+    }
+}
+
+@media screen and (max-width: 600px ) {
+    .roadmap ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: -5px -5px;
+        li {
+            margin: 5px 5px;
         }
     }
 }

@@ -14,7 +14,7 @@
     &::after {
         position: absolute;
         content: url('../../images/Line-1.svg');
-        top: 80px;
+        top: 50px;
         left: calc((100% - 100px) /2 );
     }
 }
@@ -23,4 +23,18 @@
     span {
         color: var(--accent-color-text);
     }
+}
+
+@media screen and (max-width: 800px ) {
+    .hero-main-title img {
+        width: 400px;
+    }
+    
+}
+
+@media screen and (max-width: 460px ) {
+    .hero-main-title img {
+        width: 300px;
+    }
+    
 }

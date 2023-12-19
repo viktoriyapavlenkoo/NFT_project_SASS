@@ -8,3 +8,11 @@
 .possibility-list {
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+
+@media screen and (max-width: 460px ) {
+    .possibility-list {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
