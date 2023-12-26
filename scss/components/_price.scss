@@ -24,7 +24,7 @@
     position: relative;
     &::after {
         position: absolute;
-        content: url(../../images/price-image-dash-1.svg);
+        content: url(../images/price-image-dash-1.svg);
         top: 12px;
         left: calc((100% - 266px)/2);
     }
@@ -53,7 +53,7 @@
             margin: 0 -5px;
             &::after {
                 position: absolute;
-                content: url(../../images/price-image-dash-2.svg);
+                content: url(../images/price-image-dash-2.svg);
                 top: 30px;
             }
         }
@@ -68,7 +68,7 @@
     position: relative;
     &::after {
         position: absolute;
-        content: url(../../images/Line-2.svg);
+        content: url(../images/Line-2.svg);
         bottom: -30px;
         left: 10px;
     }
@@ -83,7 +83,7 @@
         position: relative;
         &::before {
             position: absolute;
-            content: url(../../images/price-icon-image-1.svg);
+            content: url(../images/price-icon-image-1.svg);
             left: -36px;
         }
     }

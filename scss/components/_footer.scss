@@ -7,7 +7,7 @@
     align-items: center;
         &::after {
             position: absolute;
-            content: url(../../images/footer-image-4.svg);
+            content: url(../images/footer-image-4.svg);
             left: calc(100%/3);
         }
     h2 {

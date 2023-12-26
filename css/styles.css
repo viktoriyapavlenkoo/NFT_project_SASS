@@ -407,7 +407,7 @@ section {
 }
 .price-first-formula::after {
   position: absolute;
-  content: url(../../images/price-image-dash-1.svg);
+  content: url(../images/price-image-dash-1.svg);
   top: 12px;
   left: calc((100% - 266px) / 2);
 }
@@ -459,7 +459,7 @@ section {
 }
 .block-price .block-formula .block-part-formula::after {
   position: absolute;
-  content: url(../../images/price-image-dash-2.svg);
+  content: url(../images/price-image-dash-2.svg);
   top: 30px;
 }
 .block-price .price-btn {
@@ -472,7 +472,7 @@ section {
 }
 .fifth-part-formula::after {
   position: absolute;
-  content: url(../../images/Line-2.svg);
+  content: url(../images/Line-2.svg);
   bottom: -30px;
   left: 10px;
 }
@@ -495,7 +495,7 @@ section {
 }
 .price-list p::before {
   position: absolute;
-  content: url(../../images/price-icon-image-1.svg);
+  content: url(../images/price-icon-image-1.svg);
   left: -36px;
 }
 
@@ -535,7 +535,7 @@ section {
 }
 .examples-block h2::before {
   position: absolute;
-  content: url(../../images/examples-bg.svg);
+  content: url(../images/examples-bg.svg);
   z-index: -1;
   top: -54px;
   left: 0;
@@ -603,7 +603,7 @@ section {
 }
 .first-outline::after {
   position: absolute;
-  content: url(../../images/airdrop-dash-image-1.svg);
+  content: url(../images/airdrop-dash-image-1.svg);
   left: 142px;
   top: 50px;
 }
@@ -613,7 +613,7 @@ section {
 }
 .second-outline::after {
   position: absolute;
-  content: url(../../images/airdrop-dash-image-2.svg);
+  content: url(../images/airdrop-dash-image-2.svg);
   left: 190px;
   top: 60px;
 }
@@ -623,7 +623,7 @@ section {
 }
 .third-outline::after {
   position: absolute;
-  content: url(../../images/airdrop-dash-image-3.svg);
+  content: url(../images/airdrop-dash-image-3.svg);
   left: 215px;
   top: 70px;
 }
@@ -662,7 +662,7 @@ section {
 }
 .first-item::before {
   position: absolute;
-  content: url(../../images/tokenom-icon-1.svg);
+  content: url(../images/tokenom-icon-1.svg);
   left: -36px;
 }
 
@@ -671,7 +671,7 @@ section {
 }
 .second-item::before {
   position: absolute;
-  content: url(../../images/tokenom-icon-2.svg);
+  content: url(../images/tokenom-icon-2.svg);
   left: -36px;
 }
 
@@ -680,7 +680,7 @@ section {
 }
 .third-item::before {
   position: absolute;
-  content: url(../../images/tokenom-icon-3.svg);
+  content: url(../images/tokenom-icon-3.svg);
   left: -36px;
 }
 
@@ -810,7 +810,7 @@ section {
 }
 .footer-block::after {
   position: absolute;
-  content: url(../../images/footer-image-4.svg);
+  content: url(../images/footer-image-4.svg);
   left: 33.3333333333%;
 }
 .footer-block h2 {
