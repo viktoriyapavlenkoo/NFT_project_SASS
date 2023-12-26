@@ -13,7 +13,7 @@
 
     &::after {
         position: absolute;
-        content: url('../../images/Line-1.svg');
+        content: url('../images/Line-1.svg');
         top: 50px;
         left: calc((100% - 100px) /2 );
     }
