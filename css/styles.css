@@ -175,6 +175,7 @@ section {
 
 @media screen and (max-width: 950px) {
   .burger {
+    cursor: pointer;
     display: block;
     z-index: 3;
     position: relative;
@@ -535,7 +536,7 @@ section {
 }
 .examples-block h2::before {
   position: absolute;
-  content: url(../images/examples-bg.svg);
+  content: url(../../images/examples-bg.svg);
   z-index: -1;
   top: -54px;
   left: 0;
